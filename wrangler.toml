@@ -1,6 +1,9 @@
-name = "template"
+name = "chatgpt-reverse"
 account_id = ""
 usage_model = "bundled"
 workers_dev = true
 compatibility_date = "2022-10-03"
 main = "src/index.ts"
+routes = [
+    { pattern = "hello.example.com", custom_domain = true },
+]

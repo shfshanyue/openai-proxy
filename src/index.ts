@@ -6,10 +6,10 @@ const handleRequest = async (
   const reflare = await useReflare();
 
   reflare.push({
-    path: '/*',
+    path: "/*",
     upstream: {
-      domain: 'httpbin.org',
-      protocol: 'https',
+      domain: "api.openai.com",
+      protocol: "https",
     },
   });
 
