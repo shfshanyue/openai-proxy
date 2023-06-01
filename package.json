@@ -26,7 +26,7 @@
     "webpack-cli": "^5.1.1"
   },
   "dependencies": {
-    "@vercel/node": "^2.14.2",
+    "@vercel/node": "^2.14.3",
     "reflare": "^1.1.4",
     "vercel": "^29.3.4"
   }
