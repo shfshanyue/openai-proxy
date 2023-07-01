@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@vercel/node": "^2.14.2",
-    "reflare": "^1.1.4",
+    "reflare": "^1.1.5",
     "vercel": "^29.3.4"
   }
 }
