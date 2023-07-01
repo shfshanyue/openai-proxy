@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@vercel/node':
     specifier: ^2.14.2
@@ -31,8 +35,8 @@ devDependencies:
     specifier: ^3.0.0
     version: 3.0.0
   ts-loader:
-    specifier: ^9.4.2
-    version: 9.4.2(typescript@5.0.4)(webpack@5.83.1)
+    specifier: ^9.4.4
+    version: 9.4.4(typescript@5.0.4)(webpack@5.83.1)
   ts-node:
     specifier: ^10.9.1
     version: 10.9.1(@types/node@20.2.1)(typescript@5.0.4)
@@ -6840,8 +6844,8 @@ packages:
     resolution: {integrity: sha512-AqTiAOLcj85xS7vQ8QkAV41hPDIJ71XJB4RCUrzo/1GM2CQwhkJGaf9Hgr7BOugMRpgGUrqRg/DrBDl4H40+8g==}
     dev: false
 
-  /ts-loader@9.4.2(typescript@5.0.4)(webpack@5.83.1):
-    resolution: {integrity: sha512-OmlC4WVmFv5I0PpaxYb+qGeGOdm5giHU7HwDDUjw59emP2UYMHy9fFSDcYgSNoH8sXcj4hGCSEhlDZ9ULeDraA==}
+  /ts-loader@9.4.4(typescript@5.0.4)(webpack@5.83.1):
+    resolution: {integrity: sha512-MLukxDHBl8OJ5Dk3y69IsKVFRA/6MwzEqBgh+OXMPB/OD01KQuWPFd1WAQP8a5PeSCAxfnkhiuWqfmFJzJQt9w==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       typescript: '*'
